@@ -1,0 +1,16 @@
+.bloqueVerde {
+    height: 120px;
+    width: 660px;
+    background-color: #33cc33;
+    margin: 10px 10px 15px 15px;
+    
+}
+
+.bloqueAzul {
+    height: 200px;
+    width: 210px;
+    background-color:mediumblue;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 10px
+}

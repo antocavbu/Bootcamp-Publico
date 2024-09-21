@@ -1,0 +1,25 @@
+
+.bloqueAmarillo {
+    height: 150px;
+    background-color: #ffcc00;
+    margin:10px 20px 5px 20px;
+  }
+
+.bloqueFucsia {
+    height: 400px;
+    width: 700px;
+    background-color:deeppink;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px 10px 10px
+    
+  }
+
+.bloqueCeleste {
+    height: 380px;
+    width: 225px;
+    background-color: #66ccff;
+    margin: 15px 15px 10px 15px;
+    display: inline-block;
+}
+  
