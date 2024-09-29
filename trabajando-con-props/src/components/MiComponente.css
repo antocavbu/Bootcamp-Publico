@@ -1,0 +1,23 @@
+.divComprar {
+    justify-items:flex-end
+}
+button {
+    background-color: rgb(64, 64, 252);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    align-self: center;
+}
+
+.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.agotado {
+    color: red;
+}
+
+h4 {
+    color: green;
+}
