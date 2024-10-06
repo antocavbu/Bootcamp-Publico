@@ -1,0 +1,94 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1 {
+  color:black
+}
+
+/* estilos generales del formulario */
+input{
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: center;
+  flex-direction: row;
+  margin: 2px auto;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  width: 300px;
+}
+
+select {
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px auto;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  width: 200px;
+}
+/* estilo boton "Agregar nota" */
+.agregarNota {
+  display: flex;
+  color:white;
+  background-color: rgb(34, 34, 255);
+  justify-content: center;
+  flex-direction: row;
+  margin: 2px auto;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+/* estilo filtros y notas guardadas */
+.filtros {
+  display: flex;
+  color: black;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  ;
+}
+.notaguardada {
+  display: flex;
+  color: black;
+  background-color: whitesmoke;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  max-width: 100%;
+  margin: 10px auto;
+  padding: 2px 10px;
+  font-size: small;
+}
+/* estilo boton eliminar */
+.eliminar {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para mensaje de error */
+
+.error {
+  color: red;
+}
+
