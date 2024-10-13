@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* estilos generales */
+h1 {
+ color: rgb(6, 185, 6);
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  
+}
+ul li {
+  list-style: none;
+  padding:10px;
+  
+}
+/* estilos especificos para los enlaces a cada obra */
+.art-link  {
+  font-size: large;
+  color: rgb(6, 185, 6);
+  text-decoration: none;
+}
+.art-link:hover {
+  text-decoration: underline;
+}
+
+.art-link:visited {
+  color: rgb(6, 185, 6);
+}
+
+/* estilos para el contenedor de la obra */
+.contenedor-art h1{
+  color:black;
+}
+
+/* estilos para los botones */
+button {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: small;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px grey;
+}
