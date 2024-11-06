@@ -1,0 +1,54 @@
+body {
+  background-color: white; /* Establece el fondo del body en blanco */
+  margin: 0; /* Elimina el margen por defecto del body */
+  padding: 0; /* Elimina el padding por defecto del body */
+  font-family: Arial, sans-serif; /* Establece una fuente por defecto */
+  height: 100vh; /* Asegura que el body cubra toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Asegura que el contenedor cubra toda la página */
+.container {
+  flex: 1;
+  padding-top: 4rem; /* Asegura que el contenido no esté oculto detrás de la NavBar */
+  display: flex;
+  flex-direction: column;
+}
+h1,h2,h3{
+  text-align: center;
+  color: black;
+}
+
+/* App.css*/
+.navBar {
+  position: fixed;
+  top: 5px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  z-index: 1000; 
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navBar li {
+  display: inline;
+}
+
+.navBar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+}
